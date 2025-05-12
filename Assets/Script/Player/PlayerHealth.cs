@@ -42,7 +42,6 @@ public class PlayerHealth : ObjectHealth
 
     private void Update()
     {
-
         Death();
         animator.SetBool("OnHit", isHit);
         postureBreak();
